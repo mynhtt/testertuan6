@@ -9,7 +9,7 @@ public class Player {
     private Integer point;
     public Player(){
         Random random = new Random();
-        this.tokens = random.nextInt(5-2)+1;
+        this.tokens = random.nextInt(5-1)+1;
         this.point = 0;
     }
 

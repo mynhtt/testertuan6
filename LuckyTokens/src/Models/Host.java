@@ -6,7 +6,7 @@ public class Host {
     private int tokens;
     public Host(){
         Random random = new Random();
-        this.tokens = random.nextInt(5-2)+1;
+        this.tokens = random.nextInt(5-1)+1;
     }
 
     public Host(int tokens) {
